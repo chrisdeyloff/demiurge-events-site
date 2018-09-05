@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-xxxl-14">
+    <div class="row">
+      <div class="col-xxxl-12">
+        <img src="../../../assets/images/logo-header.png" style="width: 100%;" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xxxl-12">
+        <div class="container">
+
+          <h1 class="my-4 text-center text-lg-left">Demiurge Gallery</h1>
+    
+          <div class="row text-center text-lg-left">
+    
+            <div class="col-lg-2 col-md-6 col-xs-8" *ngFor="let fileName of fileNames">
+              <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="../../../assets/images/gallery/{{ fileName }}" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

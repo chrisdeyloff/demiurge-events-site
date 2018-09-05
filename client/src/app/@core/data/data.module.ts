@@ -1,6 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { GalleryService } from './gallery.service';
 import { UserService } from './users.service';
 import { ElectricityService } from './electricity.service';
 import { StateService } from './state.service';
@@ -18,20 +19,21 @@ import { ProfitBarAnimationChartService } from './profit-bar-animation-chart.ser
 import { LayoutService } from './layout.service';
 
 const SERVICES = [
+  GalleryService,
   UserService,
-  ElectricityService,
+  // ElectricityService,
   StateService,
-  SmartTableService,
-  PlayerService,
-  UserActivityService,
-  OrdersChartService,
-  ProfitChartService,
-  TrafficListService,
-  PeriodsService,
-  EarningService,
-  OrdersProfitChartService,
-  TrafficBarService,
-  ProfitBarAnimationChartService,
+  // SmartTableService,
+  // PlayerService,
+  // UserActivityService,
+  // OrdersChartService,
+  // ProfitChartService,
+  // TrafficListService,
+  // PeriodsService,
+  // EarningService,
+  // OrdersProfitChartService,
+  // TrafficBarService,
+  // ProfitBarAnimationChartService,
   LayoutService,
 ];
 

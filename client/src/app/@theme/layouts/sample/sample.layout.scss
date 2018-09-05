@@ -92,12 +92,12 @@
       }
 
       i {
-        font-size: 2rem;
+        font-size: 5rem;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
       }
       span {
-        @include nb-ltr(padding-left, 0.25rem);
-        @include nb-rtl(padding-right, 0.25rem);
+        @include nb-ltr(padding-left, 0.75rem);
+        @include nb-rtl(padding-right, 0.50rem);
       }
 
       i, span {
@@ -106,21 +106,6 @@
     }
 
     /deep/ nb-menu {
-      & > .menu-items {
-        & > .menu-item:first-child {
-          .menu-title {
-            &::after {
-              content: 'new';
-              color: nb-theme(color-white);
-              margin-left: 1rem;
-              background: nb-theme(color-danger);
-              padding: 0 0.5rem;
-              border-radius: nb-theme(radius);
-              font-size: nb-theme(font-size-sm);
-            }
-          }
-        }
-      }
 
       .nb-e-commerce {
         font-size: 2rem;
